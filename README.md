@@ -1,3 +1,3 @@
-# tg_dictionary
+# telegram_bot
 Телеграм бот-словарик
 
