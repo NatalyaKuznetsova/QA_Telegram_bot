@@ -49,7 +49,7 @@ def message_handler(message: types.Message):
     # если перед строкой поставить букву f, то в фигурных скобках {} можно использовать переменные :)
     bot.send_message(
         chat_id=message.chat.id,
-        text=f'Определение:\n<code>{definition}</code>',
+        text=f'<b>Определение</b>:\n<code>{definition}</code>',
     )
 
     bot.send_message(
